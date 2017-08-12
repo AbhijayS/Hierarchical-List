@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  background-color: #222;
+  opacity: 0.8;
+}
+
+#menu {
+  font-family: "Roboto";
+  font-weight: bolder;
+  position: absolute;
+  list-style-type: none;
+  bottom: 0;
+  font-style: italic;
+
+}
+
+#menu li {
+  margin-bottom: 10%;
+}
+#HiLit_Button {
+  font-family: "Poiret One";
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: seagreen;
+  border: 1px solid seagreen;
+  margin: 30px 10%;
+  border-radius: 60px;
+  padding: 1% 4%;
+  font-size: 160%;
+  min-width: 180px;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+#HiLit_Button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: seagreen;
+  color: white;
+}
+
+header {
+  background-color: gray;
+  padding-top: 50px;
+  padding-bottom: 1%;
+  min-height: 300px;
+  border-left: 50px solid gray;
+  border-right: 50px solid gray;
+  min-width: 930px;
+  border-radius: 50px;
+  transition-duration: 1s;
+  margin: 0 50px;
+  margin-top: 50px;
+
+}
+
+header:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+header div {
+  font-family: "Roboto";
+  font-weight: bolder;
+  font-size: .8em;
+  text-align: center;
+  border: 2px solid lightgray;
+  letter-spacing: 0.8em;
+  padding: 0.5% 0;
+  margin-bottom: 50px;
+  width: 20%;
+  min-width: 240px;
+  margin-left: 0;
+  color: #111;
+}
+
+#cursor {
+  font-size: 2em;
+  vertical-align: sub;
+  margin-left: 0;
+}
+#menu a{
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
