@@ -1,5 +1,4 @@
-var headerEl = document.getElementsByTagName('header');
-headerEl = headerEl[0];
+var headerEl = document.getElementById('visual');
 headerEl.addEventListener("mouseenter", fold);
 headerEl.addEventListener("mouseleave", unfold);
 

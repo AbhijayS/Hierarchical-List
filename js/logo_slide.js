@@ -1,5 +1,5 @@
-var headItems = document.getElementsByTagName('header');
-headItems = headItems[0].children;
+var headItems = document.getElementById('visual');
+headItems = headItems.children;
 var margin = 0;
 var slideItv = window.setInterval(slide, 1000/60);
 
